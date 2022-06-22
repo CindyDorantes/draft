@@ -725,4 +725,18 @@ body {
 
   /* -------CSS FOR POPUP MOBILE    */
 
+  .popup-mb {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  #title-pop {
+    color: #172b4d;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+  }
+
   
