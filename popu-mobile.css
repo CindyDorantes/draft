@@ -726,12 +726,25 @@ body {
   /* -------CSS FOR POPUP MOBILE    */
 
   .popup-mb {
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    background-color: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     padding: 5%;
+    transition: 200ms ease-in-out;
+    transform: scale(0);
+    z-index: 10;
+  }
+
+  .popup-mb.active {
+    transform: scale(1);
+  }
+
+  .img-pop {
+    cursor: pointer;
   }
 
   .title-pop {
@@ -785,8 +798,7 @@ body {
     font-size: 17px;
     color: #fff;
     cursor: pointer;
-    width: auto;
-    
+    width: auto;    
   }
 
   
