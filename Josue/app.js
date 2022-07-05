@@ -188,7 +188,6 @@ for (let i = 0; i < projects.length; i += 1) {
   accessDiv.appendChild(seeProject);
 
   seeProject.addEventListener('click', () => {
-    
     // create mobile popup window//
     const wrapPop = document.createElement('div');
     wrapPop.classList.add('wrap');

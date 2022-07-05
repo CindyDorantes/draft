@@ -1,0 +1,12 @@
+.menu {
+    border: 1px solid grey;
+    color: black;
+    padding: 2%;
+    width: 10%;  
+    min-width: 200px;
+    display: none;
+}
+
+.menu.show {
+    display: block;
+}
