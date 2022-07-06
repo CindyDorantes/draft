@@ -17,6 +17,7 @@ function Remove(parentBtn) {
 
 function add() {
   dataBase.push(newBook);
+  console.log(dataBase);
   const table = document.getElementById('tbody');
   const row = document.createElement('tr');
   table.appendChild(row);
